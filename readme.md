@@ -2,7 +2,7 @@
 
 ![Twitter Bird](https://github.com/maciejwalkowiak/twitter-bird-extension/blob/main/icons/icon128.png)
 
-Tiny extensions that brings back the actual twitter logo and gets rid of the Doge dog from the upper left corner
+Tiny extension that brings back the actual twitter logo and gets rid of the Doge dog from the upper left corner
 
 ## How to add this extension to your browser?
 
@@ -11,7 +11,7 @@ This extension is not published (yet) to Chrome Store. To add it to your browser
 1. Clone the repo:
 
 ```
-$ git clone https://github.com/maciejwalkowiak/start-spring-io-default-maven-extension
+$ git clone https://github.com/maciejwalkowiak/twitter-bird-extension
 ```
 
 2. Run `make build`
