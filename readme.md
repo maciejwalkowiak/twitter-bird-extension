@@ -11,3 +11,5 @@ make build
 ```
 
 Find versions for Chrome and Firefox in `build` directory.
+
+[Bird icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/bird)
