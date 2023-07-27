@@ -1,0 +1,21 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    padding: 10px;
+    font-family: system-ui;
+}
+
+.container {
+    width: 240px;
+    text-align: center;
+}
+
+.bird {
+    height: 120px;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}
