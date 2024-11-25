@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E18287B82A72D6FA0036BF29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18287B72A72D6FA0036BF29 /* AppDelegate.swift */; };
+		E18287BA2A72D6FA0036BF29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18287B92A72D6FA0036BF29 /* SceneDelegate.swift */; };
+		E18287BD2A72D6FA0036BF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18287BB2A72D6FA0036BF29 /* LaunchScreen.storyboard */; };
+		E18287C02A72D6FA0036BF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18287BE2A72D6FA0036BF29 /* Main.storyboard */; };
+		E18287C92A72D6FA0036BF29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18287C82A72D6FA0036BF29 /* AppDelegate.swift */; };
+		E18287CC2A72D6FA0036BF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18287CA2A72D6FA0036BF29 /* Main.storyboard */; };
+		E18287D32A72D6FA0036BF29 /* twitter get bird back Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E18287D22A72D6FA0036BF29 /* twitter get bird back Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E18287DD2A72D6FA0036BF29 /* twitter get bird back Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E18287DC2A72D6FA0036BF29 /* twitter get bird back Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E18287E32A72D6FA0036BF29 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E182879E2A72D6F70036BF29 /* Main.html */; };
+		E18287E42A72D6FA0036BF29 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E182879E2A72D6F70036BF29 /* Main.html */; };
+		E18287E52A72D6FA0036BF29 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E18287A02A72D6F70036BF29 /* Icon.png */; };
+		E18287E62A72D6FA0036BF29 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E18287A02A72D6F70036BF29 /* Icon.png */; };
+		E18287E72A72D6FA0036BF29 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E18287A12A72D6F70036BF29 /* Style.css */; };
+		E18287E82A72D6FA0036BF29 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E18287A12A72D6F70036BF29 /* Style.css */; };
+		E18287E92A72D6FA0036BF29 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E18287A22A72D6F70036BF29 /* Script.js */; };
+		E18287EA2A72D6FA0036BF29 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E18287A22A72D6F70036BF29 /* Script.js */; };
+		E18287EB2A72D6FA0036BF29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18287A32A72D6F70036BF29 /* ViewController.swift */; };
+		E18287EC2A72D6FA0036BF29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18287A32A72D6F70036BF29 /* ViewController.swift */; };
+		E18287ED2A72D6FA0036BF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18287A42A72D6FA0036BF29 /* Assets.xcassets */; };
+		E18287EE2A72D6FA0036BF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18287A42A72D6FA0036BF29 /* Assets.xcassets */; };
+		E18287EF2A72D6FA0036BF29 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18287A62A72D6FA0036BF29 /* SafariWebExtensionHandler.swift */; };
+		E18287F02A72D6FA0036BF29 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18287A62A72D6FA0036BF29 /* SafariWebExtensionHandler.swift */; };
+		E18287F12A72D6FA0036BF29 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E18287A82A72D6FA0036BF29 /* _locales */; };
+		E18287F22A72D6FA0036BF29 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E18287A82A72D6FA0036BF29 /* _locales */; };
+		E18287F32A72D6FA0036BF29 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E18287A92A72D6FA0036BF29 /* images */; };
+		E18287F42A72D6FA0036BF29 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E18287A92A72D6FA0036BF29 /* images */; };
+		E18287F52A72D6FA0036BF29 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E18287AA2A72D6FA0036BF29 /* manifest.json */; };
+		E18287F62A72D6FA0036BF29 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E18287AA2A72D6FA0036BF29 /* manifest.json */; };
+		E18287F72A72D6FA0036BF29 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E18287AB2A72D6FA0036BF29 /* background.js */; };
+		E18287F82A72D6FA0036BF29 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E18287AB2A72D6FA0036BF29 /* background.js */; };
+		E18287F92A72D6FA0036BF29 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E18287AC2A72D6FA0036BF29 /* content.js */; };
+		E18287FA2A72D6FA0036BF29 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E18287AC2A72D6FA0036BF29 /* content.js */; };
+		E18287FB2A72D6FA0036BF29 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E18287AD2A72D6FA0036BF29 /* popup.html */; };
+		E18287FC2A72D6FA0036BF29 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E18287AD2A72D6FA0036BF29 /* popup.html */; };
+		E18287FD2A72D6FA0036BF29 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E18287AE2A72D6FA0036BF29 /* popup.css */; };
+		E18287FE2A72D6FA0036BF29 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E18287AE2A72D6FA0036BF29 /* popup.css */; };
+		E18287FF2A72D6FA0036BF29 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E18287AF2A72D6FA0036BF29 /* popup.js */; };
+		E18288002A72D6FA0036BF29 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E18287AF2A72D6FA0036BF29 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E18287D42A72D6FA0036BF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E18287982A72D6F70036BF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18287D12A72D6FA0036BF29;
+			remoteInfo = "twitter get bird back Extension (iOS)";
+		};
+		E18287DE2A72D6FA0036BF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E18287982A72D6F70036BF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18287DB2A72D6FA0036BF29;
+			remoteInfo = "twitter get bird back Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E18288062A72D6FA0036BF29 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E18287D32A72D6FA0036BF29 /* twitter get bird back Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E182880D2A72D6FA0036BF29 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E18287DD2A72D6FA0036BF29 /* twitter get bird back Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E182879F2A72D6F70036BF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		E18287A02A72D6F70036BF29 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E18287A12A72D6F70036BF29 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		E18287A22A72D6F70036BF29 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		E18287A32A72D6F70036BF29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E18287A42A72D6FA0036BF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E18287A62A72D6FA0036BF29 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		E18287A82A72D6FA0036BF29 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		E18287A92A72D6FA0036BF29 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		E18287AA2A72D6FA0036BF29 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		E18287AB2A72D6FA0036BF29 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		E18287AC2A72D6FA0036BF29 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		E18287AD2A72D6FA0036BF29 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		E18287AE2A72D6FA0036BF29 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		E18287AF2A72D6FA0036BF29 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		E18287B42A72D6FA0036BF29 /* twitter get bird back.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitter get bird back.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18287B72A72D6FA0036BF29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E18287B92A72D6FA0036BF29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E18287BC2A72D6FA0036BF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E18287BF2A72D6FA0036BF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E18287C12A72D6FA0036BF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18287C62A72D6FA0036BF29 /* twitter get bird back.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitter get bird back.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18287C82A72D6FA0036BF29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E18287CB2A72D6FA0036BF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E18287CD2A72D6FA0036BF29 /* twitter get bird back.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "twitter get bird back.entitlements"; sourceTree = "<group>"; };
+		E18287D22A72D6FA0036BF29 /* twitter get bird back Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "twitter get bird back Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18287D72A72D6FA0036BF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18287DC2A72D6FA0036BF29 /* twitter get bird back Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "twitter get bird back Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18287E12A72D6FA0036BF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18287E22A72D6FA0036BF29 /* twitter get bird back.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "twitter get bird back.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E18287B12A72D6FA0036BF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287C32A72D6FA0036BF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287CF2A72D6FA0036BF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287D92A72D6FA0036BF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E18287972A72D6F70036BF29 = {
+			isa = PBXGroup;
+			children = (
+				E182879C2A72D6F70036BF29 /* Shared (App) */,
+				E18287A52A72D6FA0036BF29 /* Shared (Extension) */,
+				E18287B62A72D6FA0036BF29 /* iOS (App) */,
+				E18287C72A72D6FA0036BF29 /* macOS (App) */,
+				E18287D62A72D6FA0036BF29 /* iOS (Extension) */,
+				E18287E02A72D6FA0036BF29 /* macOS (Extension) */,
+				E18287B52A72D6FA0036BF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E182879C2A72D6F70036BF29 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E18287A32A72D6F70036BF29 /* ViewController.swift */,
+				E18287A42A72D6FA0036BF29 /* Assets.xcassets */,
+				E182879D2A72D6F70036BF29 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		E182879D2A72D6F70036BF29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E182879E2A72D6F70036BF29 /* Main.html */,
+				E18287A02A72D6F70036BF29 /* Icon.png */,
+				E18287A12A72D6F70036BF29 /* Style.css */,
+				E18287A22A72D6F70036BF29 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E18287A52A72D6FA0036BF29 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E18287A62A72D6FA0036BF29 /* SafariWebExtensionHandler.swift */,
+				E18287A72A72D6FA0036BF29 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		E18287A72A72D6FA0036BF29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E18287A82A72D6FA0036BF29 /* _locales */,
+				E18287A92A72D6FA0036BF29 /* images */,
+				E18287AA2A72D6FA0036BF29 /* manifest.json */,
+				E18287AB2A72D6FA0036BF29 /* background.js */,
+				E18287AC2A72D6FA0036BF29 /* content.js */,
+				E18287AD2A72D6FA0036BF29 /* popup.html */,
+				E18287AE2A72D6FA0036BF29 /* popup.css */,
+				E18287AF2A72D6FA0036BF29 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E18287B52A72D6FA0036BF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E18287B42A72D6FA0036BF29 /* twitter get bird back.app */,
+				E18287C62A72D6FA0036BF29 /* twitter get bird back.app */,
+				E18287D22A72D6FA0036BF29 /* twitter get bird back Extension.appex */,
+				E18287DC2A72D6FA0036BF29 /* twitter get bird back Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E18287B62A72D6FA0036BF29 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E18287B72A72D6FA0036BF29 /* AppDelegate.swift */,
+				E18287B92A72D6FA0036BF29 /* SceneDelegate.swift */,
+				E18287BB2A72D6FA0036BF29 /* LaunchScreen.storyboard */,
+				E18287BE2A72D6FA0036BF29 /* Main.storyboard */,
+				E18287C12A72D6FA0036BF29 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		E18287C72A72D6FA0036BF29 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E18287C82A72D6FA0036BF29 /* AppDelegate.swift */,
+				E18287CA2A72D6FA0036BF29 /* Main.storyboard */,
+				E18287CD2A72D6FA0036BF29 /* twitter get bird back.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		E18287D62A72D6FA0036BF29 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E18287D72A72D6FA0036BF29 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E18287E02A72D6FA0036BF29 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E18287E12A72D6FA0036BF29 /* Info.plist */,
+				E18287E22A72D6FA0036BF29 /* twitter get bird back.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E18287B32A72D6FA0036BF29 /* twitter get bird back (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18288072A72D6FA0036BF29 /* Build configuration list for PBXNativeTarget "twitter get bird back (iOS)" */;
+			buildPhases = (
+				E18287B02A72D6FA0036BF29 /* Sources */,
+				E18287B12A72D6FA0036BF29 /* Frameworks */,
+				E18287B22A72D6FA0036BF29 /* Resources */,
+				E18288062A72D6FA0036BF29 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E18287D52A72D6FA0036BF29 /* PBXTargetDependency */,
+			);
+			name = "twitter get bird back (iOS)";
+			productName = "twitter get bird back (iOS)";
+			productReference = E18287B42A72D6FA0036BF29 /* twitter get bird back.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E18287C52A72D6FA0036BF29 /* twitter get bird back (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E182880E2A72D6FA0036BF29 /* Build configuration list for PBXNativeTarget "twitter get bird back (macOS)" */;
+			buildPhases = (
+				E18287C22A72D6FA0036BF29 /* Sources */,
+				E18287C32A72D6FA0036BF29 /* Frameworks */,
+				E18287C42A72D6FA0036BF29 /* Resources */,
+				E182880D2A72D6FA0036BF29 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E18287DF2A72D6FA0036BF29 /* PBXTargetDependency */,
+			);
+			name = "twitter get bird back (macOS)";
+			productName = "twitter get bird back (macOS)";
+			productReference = E18287C62A72D6FA0036BF29 /* twitter get bird back.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E18287D12A72D6FA0036BF29 /* twitter get bird back Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18288032A72D6FA0036BF29 /* Build configuration list for PBXNativeTarget "twitter get bird back Extension (iOS)" */;
+			buildPhases = (
+				E18287CE2A72D6FA0036BF29 /* Sources */,
+				E18287CF2A72D6FA0036BF29 /* Frameworks */,
+				E18287D02A72D6FA0036BF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "twitter get bird back Extension (iOS)";
+			productName = "twitter get bird back Extension (iOS)";
+			productReference = E18287D22A72D6FA0036BF29 /* twitter get bird back Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E18287DB2A72D6FA0036BF29 /* twitter get bird back Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E182880A2A72D6FA0036BF29 /* Build configuration list for PBXNativeTarget "twitter get bird back Extension (macOS)" */;
+			buildPhases = (
+				E18287D82A72D6FA0036BF29 /* Sources */,
+				E18287D92A72D6FA0036BF29 /* Frameworks */,
+				E18287DA2A72D6FA0036BF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "twitter get bird back Extension (macOS)";
+			productName = "twitter get bird back Extension (macOS)";
+			productReference = E18287DC2A72D6FA0036BF29 /* twitter get bird back Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E18287982A72D6F70036BF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E18287B32A72D6FA0036BF29 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E18287C52A72D6FA0036BF29 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E18287D12A72D6FA0036BF29 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E18287DB2A72D6FA0036BF29 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E182879B2A72D6F70036BF29 /* Build configuration list for PBXProject "twitter get bird back" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E18287972A72D6F70036BF29;
+			productRefGroup = E18287B52A72D6FA0036BF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E18287B32A72D6FA0036BF29 /* twitter get bird back (iOS) */,
+				E18287C52A72D6FA0036BF29 /* twitter get bird back (macOS) */,
+				E18287D12A72D6FA0036BF29 /* twitter get bird back Extension (iOS) */,
+				E18287DB2A72D6FA0036BF29 /* twitter get bird back Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E18287B22A72D6FA0036BF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18287E52A72D6FA0036BF29 /* Icon.png in Resources */,
+				E18287BD2A72D6FA0036BF29 /* LaunchScreen.storyboard in Resources */,
+				E18287E32A72D6FA0036BF29 /* Main.html in Resources */,
+				E18287E92A72D6FA0036BF29 /* Script.js in Resources */,
+				E18287ED2A72D6FA0036BF29 /* Assets.xcassets in Resources */,
+				E18287C02A72D6FA0036BF29 /* Main.storyboard in Resources */,
+				E18287E72A72D6FA0036BF29 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287C42A72D6FA0036BF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18287E62A72D6FA0036BF29 /* Icon.png in Resources */,
+				E18287E82A72D6FA0036BF29 /* Style.css in Resources */,
+				E18287CC2A72D6FA0036BF29 /* Main.storyboard in Resources */,
+				E18287EA2A72D6FA0036BF29 /* Script.js in Resources */,
+				E18287EE2A72D6FA0036BF29 /* Assets.xcassets in Resources */,
+				E18287E42A72D6FA0036BF29 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287D02A72D6FA0036BF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18287F72A72D6FA0036BF29 /* background.js in Resources */,
+				E18287FD2A72D6FA0036BF29 /* popup.css in Resources */,
+				E18287FB2A72D6FA0036BF29 /* popup.html in Resources */,
+				E18287F32A72D6FA0036BF29 /* images in Resources */,
+				E18287F52A72D6FA0036BF29 /* manifest.json in Resources */,
+				E18287F12A72D6FA0036BF29 /* _locales in Resources */,
+				E18287F92A72D6FA0036BF29 /* content.js in Resources */,
+				E18287FF2A72D6FA0036BF29 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287DA2A72D6FA0036BF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18287F82A72D6FA0036BF29 /* background.js in Resources */,
+				E18287FE2A72D6FA0036BF29 /* popup.css in Resources */,
+				E18287FC2A72D6FA0036BF29 /* popup.html in Resources */,
+				E18287F42A72D6FA0036BF29 /* images in Resources */,
+				E18287F62A72D6FA0036BF29 /* manifest.json in Resources */,
+				E18287F22A72D6FA0036BF29 /* _locales in Resources */,
+				E18287FA2A72D6FA0036BF29 /* content.js in Resources */,
+				E18288002A72D6FA0036BF29 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E18287B02A72D6FA0036BF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18287EB2A72D6FA0036BF29 /* ViewController.swift in Sources */,
+				E18287B82A72D6FA0036BF29 /* AppDelegate.swift in Sources */,
+				E18287BA2A72D6FA0036BF29 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287C22A72D6FA0036BF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18287EC2A72D6FA0036BF29 /* ViewController.swift in Sources */,
+				E18287C92A72D6FA0036BF29 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287CE2A72D6FA0036BF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18287EF2A72D6FA0036BF29 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18287D82A72D6FA0036BF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18287F02A72D6FA0036BF29 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E18287D52A72D6FA0036BF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E18287D12A72D6FA0036BF29 /* twitter get bird back Extension (iOS) */;
+			targetProxy = E18287D42A72D6FA0036BF29 /* PBXContainerItemProxy */;
+		};
+		E18287DF2A72D6FA0036BF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E18287DB2A72D6FA0036BF29 /* twitter get bird back Extension (macOS) */;
+			targetProxy = E18287DE2A72D6FA0036BF29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E182879E2A72D6F70036BF29 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E182879F2A72D6F70036BF29 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		E18287BB2A72D6FA0036BF29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E18287BC2A72D6FA0036BF29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E18287BE2A72D6FA0036BF29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E18287BF2A72D6FA0036BF29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E18287CA2A72D6FA0036BF29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E18287CB2A72D6FA0036BF29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E18288012A72D6FA0036BF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E18288022A72D6FA0036BF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E18288042A72D6FA0036BF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twitter get bird back Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.twitter-get-bird-back.Extension";
+				PRODUCT_NAME = "twitter get bird back Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E18288052A72D6FA0036BF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twitter get bird back Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.twitter-get-bird-back.Extension";
+				PRODUCT_NAME = "twitter get bird back Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E18288082A72D6FA0036BF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twitter get bird back";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.twitter-get-bird-back";
+				PRODUCT_NAME = "twitter get bird back";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E18288092A72D6FA0036BF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twitter get bird back";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.twitter-get-bird-back";
+				PRODUCT_NAME = "twitter get bird back";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E182880B2A72D6FA0036BF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/twitter get bird back.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twitter get bird back Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.twitter-get-bird-back.Extension";
+				PRODUCT_NAME = "twitter get bird back Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E182880C2A72D6FA0036BF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/twitter get bird back.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twitter get bird back Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.twitter-get-bird-back.Extension";
+				PRODUCT_NAME = "twitter get bird back Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E182880F2A72D6FA0036BF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/twitter get bird back.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "twitter get bird back";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.twitter-get-bird-back";
+				PRODUCT_NAME = "twitter get bird back";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E18288102A72D6FA0036BF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/twitter get bird back.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "twitter get bird back";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.wooftrack.twitter-get-bird-back";
+				PRODUCT_NAME = "twitter get bird back";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E182879B2A72D6F70036BF29 /* Build configuration list for PBXProject "twitter get bird back" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18288012A72D6FA0036BF29 /* Debug */,
+				E18288022A72D6FA0036BF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18288032A72D6FA0036BF29 /* Build configuration list for PBXNativeTarget "twitter get bird back Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18288042A72D6FA0036BF29 /* Debug */,
+				E18288052A72D6FA0036BF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18288072A72D6FA0036BF29 /* Build configuration list for PBXNativeTarget "twitter get bird back (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18288082A72D6FA0036BF29 /* Debug */,
+				E18288092A72D6FA0036BF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E182880A2A72D6FA0036BF29 /* Build configuration list for PBXNativeTarget "twitter get bird back Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E182880B2A72D6FA0036BF29 /* Debug */,
+				E182880C2A72D6FA0036BF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E182880E2A72D6FA0036BF29 /* Build configuration list for PBXNativeTarget "twitter get bird back (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E182880F2A72D6FA0036BF29 /* Debug */,
+				E18288102A72D6FA0036BF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E18287982A72D6F70036BF29 /* Project object */;
+}
